@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 import bgImage from '../../img/bg.png';
 
@@ -8,7 +8,13 @@ export const StyledTetrisWrapper = styled.div`
   background: url(${bgImage}) #000;
   background-size: cover;
   overflow: hidden;
-`
+
+  p {
+    color: white;
+    text-align: center;
+  }
+`;
+
 export const StyledTetris = styled.div`
   display: flex;
   align-items: flex-start;
